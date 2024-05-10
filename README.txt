@@ -1,0 +1,2 @@
+Implementation of a system consisting of a user application, a central server and several subsystems. 
+User application creates REST requests. A central server processes REST requests and forwards them to subsystems using JMS. Subsystems communicate through JMS and they manage databases over JPA.
